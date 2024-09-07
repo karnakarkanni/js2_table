@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        padding: 30px;
+        border: 2px solid black;
+        background-color: rgb(234, 219, 194);
+      }
+    </style>
+</head>
+
+<body>
+    <script>
+        var h1_cre = document.createElement("h1");
+        h1_cre.innerText = "M.KARNAKAR";
+        document.body.append(h1_cre)
+        var center_cre = document.createElement("center")
+        center_cre.appendChild(h1_cre);
+        
+        span_cre = document.createElement("p")
+        span_cre.innerText = "gmailid:karnakarmaratikanni@gmail.com"
+        var center1_cre = document.createElement("center")
+        center1_cre.appendChild(span_cre);
+
+        span1_cre = document.createElement("p")
+        span1_cre.innerText = "linkdin:https://www.linkedin.com/in/karnakar-marati-644097257"
+        var center2_cre = document.createElement("center")
+        center2_cre.appendChild(span1_cre);
+
+        span2_cre = document.createElement("span")
+        span2_cre.innerText = "location:Hyderabad,jangaon"
+        var center3_cre = document.createElement("center")
+        center3_cre.appendChild(span2_cre);
+
+        var img_cre=document.createElement("img")
+        img_cre.src="passphoto.jpg"
+        img_cre.style.width="150px"
+        img_cre.style.float="right"
+        
+        document.body.append(img_cre)
+        var line1_cre = document.createElement("hr");
+
+        var head1_cre = document.createElement("h3");
+        head1_cre.innerText = "Career Objective"
+
+        var p_career_cre = document.createElement("p");
+        p_career_cre.innerText = "To work in a creative, challenging environment and achieve growth-oriented career in on organization, where I can contribute best to the growth of the organization by utilizing my technical skills, knowledge and functional experience"
+        p_career_cre.style.margin="20px"
+
+        var fel_cre=document.createElement("fieldset")
+        var led_cre=document.createElement("legend")
+        led_cre.innerText="Career Objective"
+        fel_cre.append(led_cre)
+        fel_cre.append(p_career_cre)
+        document.body.append(fel_cre)
+
+        var line2_cre = document.createElement("hr");
+
+        var div_cre=document.createElement("div")
+        document.body.append(div_cre)
+
+        var div1_cre=document.createElement("div")
+        document.body.append(div1_cre)
+
+        var skills_cre = document.createElement("h3");
+        skills_cre.innerText = "Technical Skills"
+
+        var list1_cre = document.createElement("li");
+        list1_cre.innerText = "HTML"
+
+        var list2_cre = document.createElement("li");
+        list2_cre.innerText = "CSS"
+
+        var list3_cre = document.createElement("li");
+        list3_cre.innerText = "JavaScript"
+
+        var list4_cre = document.createElement("li");
+        list4_cre.innerText = "Python"
+        div1_cre.append(skills_cre,list1_cre,list2_cre,list3_cre,list4_cre)
+
+        
+
+        var line3_cre = document.createElement("hr");
+        var div2_cre=document.createElement("div")
+        document.body.append(div2_cre)
+
+        var hobbies_cre = document.createElement("h3");
+        hobbies_cre.innerText = "Hobbies";
+
+        var hlist1_cre = document.createElement("li");
+        hlist1_cre.innerText = "playing chess";
+
+        var hlist2_cre = document.createElement("li");
+        hlist2_cre.innerText = "Playing cricket";
+
+        div2_cre.append(hobbies_cre,hlist2_cre,hlist1_cre)
+        div_cre.style.display='grid';
+        div_cre.style.gridTemplateColumns='auto auto'
+        div_cre.append(div1_cre,div2_cre)
+
+
+        var line4_cre = document.createElement("hr");
+          var h3_cre=document.createElement("h3")
+        h3_cre.innerText="PROJECT DETAILS:"
+      var  h31_cre=document.createElement("h3")
+        h31_cre.style.display="inline"
+        h31_cre.innerText="Title:"
+      
+       var pname_cre=document.createElement("p")
+        pname_cre.style.display=" inline"
+        pname_cre.innerText="Safety Management System Through Smart Poles"
+
+       var pre_cre=document.createElement("pre")
+       var dis_cre=document.createElement("h3")
+        dis_cre.innerText="Discription:"
+        dis_cre.style.display="inline"
+       var disp_cre=document.createElement("p")
+        disp_cre.style.display="inline"
+        disp_cre.innerText="This proposal addresses the rising crime rates in India, particularly crimes against women, by introducing safety management system through smart poles. These systems feature emergency button linked to police control rooms via GSM networks and microprocessors. Integrated with cameras, GPS, and microcontrollers, they enable rapid reporting of crimes and quick response from law enforcement "        
+
+        var line5_cre=document.createElement("hr")
+        var Dis_cre = document.createElement("h3");
+        Dis_cre.innerText = "Disclaimer";
+        var p_Dis_cre = document.createElement("p");
+        p_Dis_cre.innerText = "I certify that the information provided is true and accurate to the best of my knowledge";
+
+        var line6_cre=document.createElement("hr")
+       var d_cre=document.createElement("h3")
+       d_cre.innerText="Date:15/08/2024"
+
+       var sig_cre=document.createElement("h3")
+       sig_cre.innerText="Signature:"
+       sig_cre.style.display="inline"
+
+       var img1_cre=document.createElement("img")
+        img1_cre.src="https://signature.freefire-name.com/img.php?f=7&t=Karnakar"
+        img1_cre.style.width="100px"
+        img1_cre.style.display="inline"
+        img1_cre.style.margin="-10px"
+        img1_cre.style.marginLeft="1px"
+
+        document.body.append(center_cre, center1_cre, center2_cre, center3_cre, line1_cre,fel_cre , div_cre ,line4_cre,h3_cre,h31_cre,pname_cre,pre_cre,dis_cre,disp_cre,line5_cre,Dis_cre, p_Dis_cre,line6_cre,d_cre,sig_cre,img1_cre);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var h1_cre=document.createElement("h1")
+        h1_cre.innerText="Restuarent"
+        h1_cre.style.textAlign="center"
+        h1_cre.style.color="blue"
+
+        var img_cre=document.createElement("img")
+        img_cre.src="https://rb.gy/yavw1c"
+        var center1_cre=document.createElement("center")
+        center1_cre.appendChild(img_cre)
+
+        var p_cre=document.createElement("p")
+        p_cre.innerText="pista house in Kukatpally Hyderabad is known for providing scrumptious biryani. Apart from a desirable menu, their service includes Home Delivery , Veg Option Available , Valet Parking Service.Kritunga Restaurant Private Limited is a Non-govt company, incorporated on 29 Jun, 2010. It's a private unlisted company and is classified as'company limited by shares'.Company's authorized capital stands at Rs 25.0 lakhs and has 60.000004% paid-up capital which is Rs 15.0 lakhs. Kritunga Restaurant Private Limited last annual general meet (AGM) happened on 30 Sep, 2016. The company last updated its financials on 31 Mar, 2016 as per Ministry of Corporate Affairs (MCA).pistha house Private Limited is majorly in Trading business from last 14 years and currently, company operations are active. Current board members & directors are NARENDRA KUMAR REDDY TADI and TADI RAJITHA ."
+        p_cre.style.padding="20px"
+        
+
+        var div_cre=document.createElement("div")
+        document.body.append(div_cre)
+
+        var div1_cre=document.createElement("div")
+        document.body.append(div1_cre)
+
+        var skills_cre = document.createElement("h3");
+        skills_cre.innerText = "veg items"
+
+        var list1_cre = document.createElement("li");
+        list1_cre.innerText = "paneer butter"
+
+        var list2_cre = document.createElement("li");
+        list2_cre.innerText = "gobi manchuria"
+
+        var list3_cre = document.createElement("li");
+        list3_cre.innerText = "crispy corn"
+
+        var list4_cre = document.createElement("li");
+        list4_cre.innerText = "mushroom 65"
+        div1_cre.append(skills_cre,list1_cre,list2_cre,list3_cre,list4_cre)
+
+        
+
+        var line3_cre = document.createElement("hr");
+        var div2_cre=document.createElement("div")
+        document.body.append(div2_cre)
+
+        var hobbies_cre = document.createElement("h3");
+        hobbies_cre.innerText = "Non veg items";
+
+        var hlist1_cre = document.createElement("li");
+        hlist1_cre.innerText = "chicken 65";
+
+        var hlist2_cre = document.createElement("li");
+        hlist2_cre.innerText = "mutton manchuria";
+
+        var hlist3_cre = document.createElement("li");
+        hlist3_cre.innerText = "apolla fish";
+
+        var hlist4_cre = document.createElement("li");
+        hlist4_cre.innerText = "prawns";
+
+
+        div2_cre.append(hobbies_cre,hlist2_cre,hlist1_cre,hlist3_cre,list4_cre)
+        div_cre.style.display='grid';
+        div_cre.style.gridTemplateColumns='auto auto'
+        div_cre.append(div1_cre,div2_cre)
+
+        document.body.append(h1_cre,center1_cre,p_cre,div_cre)
+
+        
+    </script>
+</body>
+</html>
